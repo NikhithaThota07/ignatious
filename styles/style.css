@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* height: auto; */
+}
+:root{
+    --main-color:#f4f3f3;
+    --brown-hover:brown;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding: 10px 100px;
+}
+.nav-list .nav-item{
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-list .nav-item a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 18px;
+}
+.nav-list .nav-item a:hover{
+    color: var(--brown-hover);
+    cursor: pointer;
+}
+.nav-item i{
+    font-size: 20px;
+    padding-left: 10px;
+}
+section{
+    margin-top: 100px;
+}
+.content1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.content11{
+    width: 50%;
+}
+.content11 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.content11 p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.content12{
+    background-image: url("../images/content1.jpeg");
+    height: 400px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content11 .Buttons{
+  margin-top: 30px;
+  
+}
+.Buttons  #btn{
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.Buttons button{
+  height: 50px;
+  width: 200px;
+  margin-left: 30px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.content121{
+  height: 110px;
+  width: 400px;
+  background-color: rgb(243, 219, 189);
+  margin-top: 250px;
+  padding: 20px;
+}
+.content121 p{
+  margin: 20px;
+  font-size: 25px
+}
+.content2{
+  height: 600px;
+  width: 90%;
+  background-color: rgb(239, 215, 186);
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.content2 h1{
+  font-size: 60px;
+ padding: 50px;
+ padding-left: 100px;
+}
+.content2 button{
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+}
+.content2 img{
+  height: 200px;
+  width: 100%;
+  margin-top: 45px;
+}
+.content3{
+  height: 600px;
+  width: 100%;
+}
+.content3 h2{
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-right: 750px;
+}
+.boxs{
+  display: flex;
+}
+.boxs .box{
+  height: 400px;
+  width: 250px;
+  border: 1px black solid;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.box h3{
+  font-size: 30px;
+}
+.box p{
+  font-size: 16px;
+  margin-top: 30px;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    overflow:visible;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: brown;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  footer{
+    background-color: #efeeee;
+  }
+  .fot1{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .fot1 hr{
+    width: 360px;
+  }
+  .fot1 p:hover{
+    color: var(--brown-hover);
+  }
+  .fot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+    
+  }

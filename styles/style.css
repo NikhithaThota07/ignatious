@@ -11,6 +11,9 @@ body {
     background-color: #f0f0f0;
     /* height: auto; */
 }
+nav h1{
+  color: black;
+}
 :root{
     --main-color:#f4f3f3;
     --brown-hover:brown;
@@ -167,6 +170,33 @@ section{
   font-size: 16px;
   margin-top: 30px;
 }
+.box ion-icon{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.content4{
+  height: 600px;
+  width: 100%;
+}
+.content41{
+  display: flex;
+}
+.content41 h4{
+  font-size: 40px;
+  margin-left: 30px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.content41 button{
+  height: 40px;
+  width: 200px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
 .dropdown-content {
     display: none;
     position: relative;
@@ -177,7 +207,164 @@ section{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+  .content42{
+    display: flex;
+    margin-top: 20px;
+  }
+  .content42 .box1{
+    background-image: url(../images/content41.jpeg);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    color: white;
+    padding: 20px;
+  }
+  .content42 .box1 h5{
+    font-size: 25px;
+    margin-top: 250px;
+  }
+  .content42 .box2{
+    background-image: url(../images/content42.jpeg);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    color: white;
+    padding: 20px;
+  }
+  .content42 .box2 h5{
+    font-size: 25px;
+    margin-top: 250px;
+  }
+  .content42 .box3{
+    background-image: url(../images/content43.jpeg);
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    color: white;
+    padding: 20px;
+  }
+  .content42 .box3 h5{
+    font-size: 25px;
+    margin-top: 250px;
+  }
+  .content5{
+    height: 400px;
+    width: 100%;
+  }
+  .content51{
+    display: flex;
+  }
+  .content51 h3{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .content51 button{
+    height: 40px;
+    width: 200px;
+    margin-left: 300px;
+    margin-right: 150px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  .content52{
+    display: flex;
+    margin-top: 30px;
+  }
+  .content52 .box2{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+  }
+  .content521{
+    display: flex;
+  }
+  .content521 img{
+    height: 200px;
+    width: 200px;
+  }
+  .content5211 h6{
+    margin-top: 40px;
+  }
+  .content5211 p{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .content6{
+    height: 550px;
+    width: 90%;
+    background-color: rgb(219, 164, 219);
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  .content6 h1{
+    font-size: 60px;
+   padding: 50px;
+   padding-left: 100px;
+  }
+  .content6 button{
+    height: 50px;
+    width: 200px;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+  }
+  .content6 img{
+    height: 200px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .content7{
+    height: 500px;
+    width: 100%;
+  }
+  .content71{
+    display: flex;
+    margin-top: 50px;
+  }
+  .content71 h4{
+    font-size: 30px;
+    margin-left: 100px;
+    
+  }
+  .content71 button{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 650px;
+    font-size: 16px;
+  }
+  .content72{
+    display: flex;
+    margin-top: 30px;
+  }
+  .content72 .box3{
+    height: 300px;
+    width: 300px;
+    border: 1px black solid;
+    margin-left: 70px;
+  }
+  .box3 h2{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .box3 h4{
+    margin-top: 10px;
+    
+  }
+  .box3 img{
+    height: 300px;
+    width: 300px;
+  }
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;

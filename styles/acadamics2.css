@@ -90,13 +90,82 @@ section{
     margin-left: 20px;
   }
   .content11{
-    height: 300px;
+    height: 500px;
     width: 600px;
-    background-color: rgb(239, 160, 239);
+    background-color: rgb(239, 197, 160);
+  }
+  .content11 h2{
+    font-size: 60px;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .content11 p{
+    font-size: 25px;
+    padding: 20px;
   }
   .content12 img{
-    height: 300px;
+    height: 500px;
     width: 600px;
+  }
+  .content2{
+    display: flex;
+    height: 500px;
+    margin-top: 50px;
+  }
+  .content21{
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .content21 h5{
+    font-size: 40px;
+    
+  }
+  .content21  button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .content22 p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .content3 img{
+    height: 500px;
+    width: 90%;
+    margin-left: 70px;
+  }
+  .content41{
+   
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content4 h5{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 800px;
+  }
+  .content4 .box1{
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(190, 230, 230);
+    padding: 30px;
+  }
+  .box1 hr{
+    margin-top: 10px;
+  }
+  .box1 h6{
+    font-size: 25px;
+  }
+  .box1 p{
+    margin-top: 20px;
   }
   footer{
     background-color: #efeeee;

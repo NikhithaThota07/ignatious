@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        text-decoration: none;
+    }
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+:root{
+    --main-color:#f4f3f3;
+    --brown-hover:brown;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;
+}
+.navbar h1{
+    color: black;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding: 10px 100px;
+}
+.nav-list .nav-item{
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-list .nav-item a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 18px;
+}
+.nav-list .nav-item a:hover{
+    color: var(--brown-hover);
+    cursor: pointer;
+}
+.nav-item i{
+    font-size: 20px;
+    padding-left: 10px;
+}
+section{
+    margin-top: 100px;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    overflow:visible;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: brown;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    .a00{
+        background-color: sandybrown;
+        width: 600px;
+        height: 530px;
+        text-align: center;
+        padding-top: 200px;
+    }
+    .a01{
+        font-size: 500%;
+    }
+    .a02{
+        font-size: 200%;
+    }
+    .air{
+        margin-left: 640px;
+        margin-top: -730px;
+    }
+    .b01{
+        font-size: 400%;
+    }
+    button{
+    background-color: rgb(47, 78, 255);
+    color:#fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  button:hover{
+   background-color: rgb(241, 162, 14);
+  }
+  .b02 p{
+font-size: 10%;
+  }
+  .main{
+    display: flex;
+  }
+  .b04{
+    margin-left: 60px;
+  }
+  .b03{
+    margin-left: 30px;
+  }
+  .line1{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .line1 p{
+    font-size: 50%;
+
+  }
+  .line2{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .line2 p{
+    font-size: 50%;
+  }
+  .line3{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .line3 p{
+   font-size: 50%;
+  }
+  .c00{
+    margin-top: 130px;
+  }
+  .c0{
+    display: flex;
+  }
+  .c01{
+    margin-top: 130px;
+    margin-left: 50px;
+  }
+  .c02{
+    margin-top: 130px;
+    margin-left: 50px;
+  }
+  .line4{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .line4 p{
+    font-size: 180%;
+  }
+  .line5{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .line5 p{
+    font-size: 180%;
+  }
+  .line6{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .line6 P{
+    font-size: 180%;
+  }
+  .d0{
+    background-color: skyblue;
+    height: 700px;
+    width: 650px;
+  }
+  .d01{
+    font-size: 400%;
+  }
+  .line7{
+    background-color: black;
+    width: 80%;
+    height: 2px;
+   margin-top: -140px;
+  }
+  .line7 h5{
+    font-size: 800%;
+  }
+  .line7 p{
+    margin-left: 30px;
+    font-size: 145%;
+    margin-top: -190px;
+  }
+  .soup{
+    margin-left: 700px;
+    margin-top: -700px;
+  }
+
+  footer{
+    background-color: #efeeee;
+  }
+  .fot1{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .fot1 hr{
+    width: 360px;
+  }
+  .fot1 p:hover{
+    color: var(--brown-hover);
+  }
+  .fot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+    
+  }
+    
+    
+
+
+</style>
+<body>
+  <nav class="navbar">
+    <a href="index.html"><h1>St. Ignatius<br> College School</h1></a>
+    <ul class="nav-list">
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="services.html">Services</a></li>
+        <li class="nav-item"><a href="admissions.html">Admissions</a></li>
+        <div class="dropdown">
+            <li class="nav-item dropbtn"><a href="#">Academics</a><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+            </li>
+            <div class="dropdown-content">
+                <a href="department.html">Departments</a>
+                <a href="acadamics2.html">Advanced Programing Placement</a>
+                <a href="#">Safe Schools Program</a>
+              </div>
+        </div>
+        <li class="nav-item"><a href="news&events.html">News&Events</a></li>
+        <li class="nav-item"><a href="contactus.html">ContactUs</a></li>
+    </ul>
+</nav><hr>
+<section>
+    <div class="home1">
+        <h1>Empowering Minds, Inspiring Futures</h1>
+        <p>Welcome to St. Ignatius College School! Get ready for another year of learning and growing together. We're excited to have you here!</p>
+    </div>
+</section>
+    <div class="a00">
+    <div class="a01">
+    <p>Stay<br> Connected and<br> Informed</p>
+</div>
+<div class="a02">
+    <p>Explore the most recent developments and<br> upcoming events at our school.</p>
+</div>
+</div>
+<div class="air">
+    <img src="images/news1" height="730px" width="600px">
+</div>
+<div class="b01">
+    <p>Discover What's<br> Happening in School</p>
+    <button id="add-btn">All</button>
+    <button id="add-btn">News</button>
+    <button id="add-btn">Events</button>
+    <div class="main">
+    <div class="b02">
+        <img src="images/news2.jpg" height="400px" width="400px">
+        <div class="line1">
+            <p>PA Day for Elementaryand <br>SecondarySchools</p>
+        </div>
+    </div>
+  
+    <div class="b03">
+        <img src="images/news3.jpg" height="400px" width="400px">
+        <div class="line2">
+        <p>TCDSB's Using Heroes|june<br>2023</p>
+    </div>
+    </div>
+    <div class="b04">
+        <img src="images/news4.jpg" height="400px" width="400px">
+        <div class="line3">
+            <p>Asian Canadian Heritage<br>Month</p>
+        </div>
+    </div>
+</div>
+</div>
+<div class="c0">
+<div class="c00">
+<img src="images/news5" height="400px" width="400px">
+<div class="line4">
+    <p>Innovative Science Fair<br> Showcases Student Talent</p>
+</div>
+</div>
+<div class="c01">
+    <img src="images/news7" height="400px" width="400px">
+    <div class="line5">
+<p>Community Cleanup Day. Join<br> Us in Making a Difference</p>
+    </div>
+</div>
+<div class="c02">
+    <img src="images/news6.jpg" height="400px" width="400px">
+    <div class="line6">
+    <P>Save the Date for Our<br> Spectacular Theater Production</P>
+    </div>
+</div>
+</div>
+<div class="d0">
+<div class="d01">
+    <p>Students Boast Impressive<br> Average Scores on Exams</p>
+</div>
+<div class="line7">
+    <h5>1350</h5>
+    <p>Average SAT score. These results reflect students dedication<br> to academic excellence and readiness for higher education, paving the<br> way for future success in college admissions.</p>
+</div>
+</div>
+<div class="soup">
+    <img src="images/news8" height="700px" width="600px">
+</div>
+</section>
+<footer>
+    <div class="fot1">
+        <div class="fot11">
+            <h4>School</h4>
+            <hr>
+            <p>About</p>
+            <p>Services</p>
+            <p>Admission</p>
+            <p>News&Event</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="fot11">
+            <h4>Academics</h4>
+            <hr>
+            <p>Departments</p>
+            <p>Advanced Programing Placement</p>
+            <p>Safe Schools Program</p>
+        </div>
+        <div class="fot11">
+            <h4>Follow Us</h4>
+            <hr>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>You Tube</p>
+            <p>Instagram</p>
+        </div>
+    </div>
+    <div class="fot2">
+        <p>© 2023, All Rights Reserved</p>
+        <p>Licenses</p>
+    </div>
+</footer>
+</body>
+</html>
+</body>
+</html>

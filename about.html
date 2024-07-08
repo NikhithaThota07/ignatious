@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<style>
+    *{
+        text-decoration: none;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+:root{
+    --main-color:#f4f3f3;
+    --brown-hover:brown;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding: 10px 100px;
+}
+.navbar h1{
+    color: black;
+}
+.nav-list .nav-item{
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-list .nav-item a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 18px;
+}
+.nav-list .nav-item a:hover{
+    color: var(--brown-hover);
+    cursor: pointer;
+}
+.nav-item i{
+    font-size: 20px;
+    padding-left: 10px;
+}
+section{
+    margin-top: 100px;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    overflow:visible;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: brown;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    .zero{
+        display: flex;
+    }
+    .one{
+        font-size: 500%;
+        background-color: skyblue;
+        width: 650px;
+        height: 660px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .one p{
+        font-size: 30%;
+        margin-top: -50px;
+    }
+    .three{
+        font-size: 400%;
+        background-color: lightpink;
+        height: 300px;
+    }
+ button{
+    background-color: rgb(47, 78, 255);
+    color:#fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  button:hover{
+   background-color: rgb(241, 162, 14);
+  }
+  .line.black{
+    background-color: black;
+  }
+  .line {
+    width: 100%;
+    height: 1px;
+  }
+  * {
+    box-sizing: border-box;
+}
+.margin-bottom-12 {
+    margin-bottom: 12px;
+}
+.four p{
+    font-size: 50%;
+}
+.five{
+    font-size: 280%;
+}
+button{
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+.four1{
+    display: flex;
+}
+.six{
+    margin-left: 170px;
+    font-size: 120%;
+}
+.seven0{
+    display: flex;
+    margin-right: 100px;
+}
+.seven1{
+  margin-left: 30px;  
+}
+.eight{
+    font-size: 350%;
+}
+.eight1{
+    font-size: 240%;
+}
+.eight2{
+    background-color: black;
+    width: 50%;
+    height: 1px;
+}
+.eight2 p{
+    font-size: 130%;
+    padding-top: 30px;
+}
+.eight11{
+    font-size: 240%;
+    margin-top: 290px;
+    
+}
+.eight22{
+    background-color: black;
+    width: 50%;
+    height: 1px;
+}
+.eight22 p{
+    font-size: 130%;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.eight33{
+    font-size: 240%;
+    margin-top: 200px;
+    
+}
+.eight44{
+    background-color: black;
+    width: 50%;
+    height: 1px;
+}
+.eight44 p{
+    font-size: 130%;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.eight55{
+    font-size: 200%;
+    margin-top: -350px;
+    margin-left: 50px;
+    
+}
+.eight66{
+    background-color: black;
+    width: 40%;
+    height: 1px;
+}
+.eight66 p{
+    font-size: 110%;
+    
+    padding-top: 40px;
+    margin-left: 50px;
+}
+.eight77{
+    font-size: 200%;
+    margin-top: -350px;
+    margin-left: 50px;
+    
+}
+.eight88{
+    background-color: black;
+    width: 80%;
+    height: 1px;
+}
+.eight88 p{
+    font-size: 110%;
+  margin-bottom: -120px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.eight777{
+    font-size: 200%;
+    margin-top: -350px;
+    margin-left: 50px;
+    
+}
+.eight888{
+    background-color: black;
+    width: 80%;
+    height: 1px;
+}
+.eight888 p{
+    font-size: 110%;
+  margin-bottom: -120px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.main2{
+    margin-left: 700px;
+    margin-top: 500px;
+}
+.attack3{
+    background-color: rgb(238, 170, 87);
+    height: 400px;
+    width: 600px;
+ margin-top: -650px;
+ margin-left: -35px;
+}
+.attack3 span{
+    font-size: 450%;
+    margin-left: 50px;
+    
+}
+.eight99{
+    font-size: 200%;
+    
+    margin-left: 50px;
+  
+}
+.eight00{
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    height: 1px;
+}
+.eight00 p{
+    font-size: 110%;
+  
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.nine{
+    margin-left: 700px;
+    margin-top: -670px;
+}
+.ten{
+    font-size: 400%;
+}
+.attack{
+    background-color: rgb(238, 170, 87);
+    height: 400px;
+    width: 600px;
+}
+.attack span{
+    font-size: 450%;
+    margin-left: 50px;
+}
+.attack1{
+    background-color: rgb(238, 170, 87);
+    height: 400px;
+    width: 600px;
+    margin-top: 300px;
+}
+.attack1 span{
+    font-size: 450%;
+    margin-left: 50px;
+
+}
+.main{
+    margin-left: 670px;
+    margin-top: -450px;
+}
+.attack2{
+    background-color: rgb(238, 170, 87);
+    height: 400px;
+    width: 600px;
+    margin-top: 300px;
+}
+.attack2 span{
+    font-size: 450%;
+    margin-left: 50px;
+    
+}
+.main1{
+    margin-top: -350px;
+}
+.source p{
+   font-size: 350%;
+   margin-top: -300px;
+  margin-left: 500px;
+   
+}
+.sour{
+    display: flex;
+    margin-top: 600px;
+    margin-left: -500px;
+
+}
+.source1{
+    margin-left: -300px;
+    margin-top: -200px;
+}
+.source0{
+    margin-left: -300px;
+    margin-top: -130px;
+}
+.source0 p{
+    font-size: 200%;
+}
+.source1 p{
+    font-size: 200%;
+}
+.source2 p{
+    font-size: 200%;
+}
+.irp0 p{
+    font-size: 200%;
+}
+.irp1 p{
+    font-size: 200%;
+}
+.domain{
+    margin-right: 300px;
+}
+.source2{
+    margin-right: -300px;
+    margin-top: -300px;
+}
+.irp0{
+    display: flex;
+   
+}
+.irp{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.irp1{
+    margin-left: 50px;
+}
+footer{
+    background-color: #efeeee;
+  }
+  .fot1{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .fot1 hr{
+    width: 360px;
+  }
+  .fot1 p:hover{
+    color: var(--brown-hover);
+  }
+  .fot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+    
+  }
+</style>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><h1>St. Ignatius<br> College School</h1></a>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="services.html">Services</a></li>
+            <li class="nav-item"><a href="admissions.html">Admissions</a></li>
+            <div class="dropdown">
+                <li class="nav-item dropbtn"><a href="#">Academics</a><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                </li>
+                <div class="dropdown-content">
+                    <a href="department.html">Departments</a>
+                    <a href="acadamics2.html">Advanced Programing Placement</a>
+                    <a href="#">Safe Schools Program</a>
+                  </div>
+            </div>
+            <li class="nav-item"><a href="news&events.html">News&Events</a></li>
+            <li class="nav-item"><a href="contactus.html">ContactUs</a></li>
+        </ul>
+    </nav><hr>
+    <section>
+        <div class="home1">
+            <h1>Empowering Minds, Inspiring Futures</h1>
+            <p>Welcome to St. Ignatius College School! Get ready for another year of learning and growing together. We're excited to have you here!</p>
+        </div>
+    </section>
+   
+    <div class="zero">
+    <div class="one">
+    <h5>Revealing Our<br> Dedication to<br> Excellence</h5>
+    <p>As an esteemed institution with a rich legacy,<br> we are dedicated to providing an exceptional<br> educational experience.</p>
+    <button id="add-btn">Contact Us</button>
+</div>
+<div class="two">
+    <img src="images/library" height="659px" width="650px">
+</div>
+</div>
+</div>
+<div class="three">
+    <p>The love of Christ has gathered us<br> together into one</p>
+    <div class="line black margin-bottom-12"></div>
+    <div class="four"><p>The motto of St. Ignatius College School</p></div>
+</div>
+<div class="four1">
+<div class="five">
+    <p>Discover St. Ignatius<br> College School</p>
+    <button type="submit"><a href="https://ignatius-school.webflow.io/academics/departments">Our Departments</a></button>
+</div>
+<div class="six">
+    <p>The school is organized on a two-semester system and courses are offered at the<br> Academic, Applied, Locally Developed, and Pre-Advanced Placement levels in<br> grades 9 and 10, and at the University, College, Workplace,<br> and Advanced Placement levels in grades 11 and 12.</p>
+    <p>Our school is a certified Eco-School at the Silver Level. Our community shows an ongoing<br> commitment to the well-being of our environment through a comprehensive recycling<br> and education program. The success of our co-op program is enhanced by the resources<br> accessible to us in our immediate community. Our students benefit from a rich variety<br> of work experiences due to our proximity to the Bay Street business district, Queen’s Park, Toronto hospitals, theatres, universities, colleges, museums, art galleries and many others.</p>
+    <p>Our location provides our students and teachers with unique opportunities. Being in the<br> heart of Toronto and next door to the University of Toronto, the Royal Ontario Museum,<br> and the Ontario Legislature, among others, allows teachers to enrich the curriculum. St. Ignatius<br> College School is a diverse and progressive community where every attempt is made to meet the needs of all students.</p>
+</div>
+</div>
+<div class="seven0">
+<div class="seven">
+    <img src="images/college A" height="705px" width="650px">
+</div>
+<div class="seven1">
+    <img src="images/class" height="350px" width="600px">
+    <div class="seven2">
+    <img src="images/park.jpg" height="350px" width="600px">
+</div>
+</div>
+</div>
+<div class="eight">
+    <p>How We Meet The<br> Needs of Students</p>
+</div>
+<div class="eight1">
+    <p>Spiritual Life</p>
+</div>
+<div class="eight2">
+<p>The Chaplains of the Toronto Catholic District School Board strive to live an<br> active Christian faith which embodies the theological virtues of faith, hope<br> and charity. This vocation calls us to work as witnesses to the gospel values<br> of justice, peace, reconciliation and compassion. We encourage students<br> and staff on their faith journey.</p>
+</div>
+<div class="eight11">
+    <p>A Well-Rounded Education</p>
+</div>
+<div class="eight22">
+<p>At St. Ignatius College School, students are encouraged to combine their<br> academic curriculum with extra-curricular activities. The staff at St. Ignatius<br> College offer a wide range of after-school activities and students are<br> strongly encouraged to choose an activity which meets their talents and interests.</p>
+</div>
+<div class="eight33">
+    <p>Success For All</p>
+</div>
+<div class="eight44">
+<p>In order to ensure that all students have opportunities to meet with<br> academic success, St. Ignatius College School offers a Credit Recovery<br> program, targeting students who have not accumulated the expected<br> number of credits for their year.</p>
+</div>
+<div class="nine">
+    <img src="images/girl.jpg" height="800px" width="600px">
+</div>
+<div class="ten">
+    <p>Individual Attention<br> For Every Student</p>
+</div>
+<div class="attack">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<span class="material-symbols-outlined">
+    event
+    </span>
+</div>
+<div class="eight55">
+    <p>Student Services</p>
+</div>
+<div class="eight66">
+<p>We provide support to students in their transition from elementary<br> school, throughout the secondary school years and to college, university<br> or the workplace. We have workers, who support students in making<br> appropriate course selections and providing information on graduation<br> requirements, post-secondary planning, and career opportunities.</p>
+</div>
+<div class="main">
+<div class="attack1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <span class="material-symbols-outlined">
+        book
+        </span>
+    </div>
+    <div class="eight77">
+        <p>Library Information Centre</p>
+    </div>
+    <div class="eight88">
+    <p>The focus of the Library Information Centre at St. Ignatius College<br> School is to encourage our students to become information literate and<br> lifelong learners. The library is fully automated and secure. Students and<br> staff are encouraged to use the library for academic purposes. The focus<br> of the library information centre is to teach students to research efficiently and effectively.</p>
+    </div>
+</div>
+
+<div class="attack2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <span class="material-symbols-outlined">
+        folder_special
+        </span>
+    </div>
+    <div class="main1"></div>
+<div class="eight99">
+    <p>Resource Department</p>
+</div>
+<div class="eight00">
+<p>The focus of the Library Information Centre at St. Ignatius College<br> School is to encourage our students to become information literate and<br> lifelong learners. The library is fully automated and secure. Students and<br> staff are encouraged to use the library for academic purposes. The focus<br> of the library information centre is to teach students to research efficiently and effectively.</p>
+</div>
+</div>
+</div>
+<div class="main2">
+    <div class="attack3">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <span class="material-symbols-outlined">
+            book
+            </span>
+        </div>
+        <div class="eight777">
+            <p>Enriched/ Gifted Program</p>
+        </div>
+        <div class="eight888">
+        <p>The focus of the Library Information Centre at St. Ignatius College<br> School is to encourage our students to become information literate and<br> lifelong learners. The library is fully automated and secure. Students and<br> staff are encouraged to use the library for academic purposes. The focus<br> of the library information centre is to teach students to research efficiently and effectively.</p>
+        </div>
+    </div>
+    <div class="sour">
+    <div class="source">
+        <p>Our Leadership</p>
+    </div>
+    <div class="domain">
+    <div class="source0">
+    <img src="images/employ1" height="400px" width="400px">
+    <p>Principal</p>
+</div>
+
+<div class="ajay">
+    </div>
+<br>
+</div>
+
+    <div class="source1">
+        <img src="images/employ2" height="400px" width="400px">
+        <p>Trustee</p>
+    </div>
+    
+    <div class="ajay1"></div>
+    <div class="source2">
+        <img src="images/employ3" height="400px" width="400px">
+        <p>Superintendent</p>
+    </div>
+</div>
+<div class="ajay2"></div>
+<div class="irp0">
+<div class="irp">
+    <img src="images/employ4" height="400px" width="400px">
+    <p>CSPC CO Chair</p>
+</div>
+<div class="ajay3"></div>
+<div class="irp1">
+    <img src="images/employ5.jpg" height="400px" width="400px">
+    <p>CSPC CO Chair</p>
+</div>
+</div>
+<div class="ajay4"></div>
+<footer>
+    <div class="fot1">
+        <div class="fot11">
+            <h4>School</h4>
+            <hr>
+            <p>About</p>
+            <p>Services</p>
+            <p>Admission</p>
+            <p>News&Event</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="fot11">
+            <h4>Academics</h4>
+            <hr>
+            <p>Departments</p>
+            <p>Advanced Programing Placement</p>
+            <p>Safe Schools Program</p>
+        </div>
+        <div class="fot11">
+            <h4>Follow Us</h4>
+            <hr>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>You Tube</p>
+            <p>Instagram</p>
+        </div>
+    </div>
+    <div class="fot2">
+        <p>© 2023, All Rights Reserved</p>
+        <p>Licenses</p>
+    </div>
+</footer>
+</body>
+</html>

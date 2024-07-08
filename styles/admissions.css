@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+:root{
+    --main-color:#f4f3f3;
+    --brown-hover:brown;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding: 10px 100px;
+}
+.nav-list .nav-item{
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-list .nav-item a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 18px;
+}
+.nav-list .nav-item a:hover{
+    color: var(--brown-hover);
+    cursor: pointer;
+}
+.nav-item i{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    overflow:visible;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: brown;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  footer{
+    background-color: #efeeee;
+  }
+  .fot1{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .fot1 hr{
+    width: 360px;
+  }
+  .fot1 p:hover{
+    color: var(--brown-hover);
+  }
+  .fot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px; 
+  }
+  .aone11{
+    background-color: rgb(205, 143, 196);
+    width: 800px;
+}
+.aone11 h1{
+    font-size: 60px;
+    padding: 80px 150px 20px 50px;
+    font-weight: 500;
+}
+.aone11 p{
+    font-size: 20px;
+    padding: 20px 150px 20px 50px;
+}
+.aone11 button{
+    height: 70px;
+    width: 150px;
+    font-size: 18px;
+    margin: 50px 150px 120px 50px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+.aone1{
+    display: flex;
+    padding: 0px 50px 100px 50px;
+}
+.aone1 img{
+    width: 530px;
+}
+.athree1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.athree11{
+    display: flex;
+    justify-content: space-between;
+}
+.athree111{
+    width: 350px;
+    background-color: bisque;
+}
+#atwo11{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 30px;
+    width: 300px;
+}
+#atwo11 h2{
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.athree111 hr{
+    width: 300px;
+    height: 1px;
+    background-color: black;
+}
+.athree111 p{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.athree1{
+    padding: 50px;
+}
+.atwo{
+    padding: 20px 50px;
+}
+.afour{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+}
+.afour1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.accordion{            /* afour drop*/
+    width: 80%;
+    width: 600px;
+    padding-top: 80px;
+}
+
+.accordion-item{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 3s;
+}
+
+.accordion-header:hover{
+    background-color: #f1f1f1;
+}
+
+.accordion-symbol{
+    font-size: 18px;
+    transition: transform 3s;
+}
+
+.accordion-content{
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p{
+    margin: 0;
+}
+
+.accordion-header.active .accordion-symbol{
+    transform: rotate(0deg);
+}
+.acco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion hr{
+    width: 600px;
+}
+.afive{
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.afive1 .cont{
+    background:rgb(205, 143, 196) ;
+    padding: 50px 50px;
+}
+.cont h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.cont button{
+    height: 70px;
+    width: 190px;
+    font-size: 18px;
+    margin: 50px 150px 0px 0px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+.afive2 .cont{
+    background: bisque ;
+    padding: 50px 50px;
+    margin-top: 50px;
+}
